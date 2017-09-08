@@ -7,7 +7,7 @@ use Kuli\GithubCloneCommand;
 use Kuli\LaravelInstallCommand;
 use Symfony\Component\Console\Application;
 
-define('KULI_VERSION', '0.1.2');
+define('KULI_VERSION', '0.2');
 $application = new Application('Kuli', KULI_VERSION);
 $commands = [
     new FileCheckCommand(),
