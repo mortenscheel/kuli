@@ -6,11 +6,19 @@
  * Time: 15.24
  */
 
-namespace App;
+namespace Kuli;
 
-
+/**
+ * Class FileSystem
+ * @package Kuli
+ */
 class FileSystem
 {
+    /**
+     * Resolves path arguments relative to the current working directory
+     * @param string $path
+     * @return string
+     */
     public function translatePathArgument($path)
     {
         // Don't translate absolute paths
