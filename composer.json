@@ -21,6 +21,6 @@
     "symfony/debug": "^3.3"
   },
   "bin": [
-    "app.php"
+    "kuli"
   ]
 }
