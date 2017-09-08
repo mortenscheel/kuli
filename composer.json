@@ -1,6 +1,6 @@
 {
   "name": "mortenscheel/kuli",
-  "description": "Global CLI helper built on Laravel.",
+  "description": "Global CLI helper built on Symfony.",
   "keywords": [
     "cli",
     "helper",
